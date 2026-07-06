@@ -1,6 +1,17 @@
 const projects = [
   {
     num: "01",
+    title: "Weather Check — Weather Forecast App",
+    desc: "A real-time weather application that fetches live weather data using the OpenWeatherMap API. Users can search any city worldwide and get instant weather updates.",
+    tech: ["HTML, CSS & JavaScript", "OpenWeatherMap API"],
+    demo: "https://weather-app-blush-three-42.vercel.app/",
+    github: "https://github.com/Nikhil1121/-weather-app",
+    accent: "#f59e0b",
+    glow: "rgba(245,158,11,0.15)",
+    image: "https://res.cloudinary.com/ddslcdypq/image/upload/v1783326727/Screenshot_2026-07-06_140125_cw8n59.png",
+  },
+  {
+    num: "02",
     title: "Prescripto — Doctor Appointment System",
     desc: "Full-stack MERN doctor appointment platform with real-time slot booking, admin dashboard, doctor management, patient records, UPI payment integration, and JWT authentication. Deployed on Vercel + Render.",
     tech: ["React", "Node.js", "MongoDB", "Express", "Tailwind CSS", "Cloudinary"],
@@ -11,7 +22,7 @@ const projects = [
     image: "https://res.cloudinary.com/ddslcdypq/image/upload/v1780737161/project_prescripto.png",
   },
   {
-    num: "02",
+    num: "03",
     title: "Resume Builder",
     desc: "Generates professional ATS-friendly resumes with PDF export. Built with React, Tailwind CSS, Node.js, and MongoDB with multiple templates.",
     tech: ["React", "Tailwind CSS", "Node.js", "MongoDB"],
@@ -22,7 +33,7 @@ const projects = [
     image: "https://res.cloudinary.com/ddslcdypq/image/upload/v1780737163/project_resume.png",
   },
   {
-    num: "03",
+    num: "04",
     title: "Amazon Web App Clone",
     desc: "Amazon-style homepage with product cards, cart UI, and search functionality. Improved UI responsiveness by 35% using Flexbox and CSS Grid.",
     tech: ["HTML", "CSS", "JavaScript"],
